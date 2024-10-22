@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 77;
+	objectVersion = 70;
 	objects = {
 
 /* Begin PBXFileReference section */
@@ -11,24 +11,17 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		15EDF35A2CC7D20D0037477D /* Exceptions for "GistsList" folder in "GistsList" target */ = {
+		15EDF35A2CC7D20D0037477D /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
-				Info.plist,
+				Assets/Info.plist,
 			);
 			target = 15EDF3472CC7D20B0037477D /* GistsList */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		15EDF34A2CC7D20B0037477D /* GistsList */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				15EDF35A2CC7D20D0037477D /* Exceptions for "GistsList" folder in "GistsList" target */,
-			);
-			path = GistsList;
-			sourceTree = "<group>";
-		};
+		15EDF34A2CC7D20B0037477D /* GistsList */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (15EDF35A2CC7D20D0037477D /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = GistsList; sourceTree = "<group>"; };
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,7 +38,7 @@
 		15EDF33F2CC7D20B0037477D = {
 			isa = PBXGroup;
 			children = (
-				15EDF34A2CC7D20B0037477D /* GistsList */,
+				15EDF36C2CC7F4E60037477D /* New Group */,
 				15EDF3492CC7D20B0037477D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -56,6 +49,14 @@
 				15EDF3482CC7D20B0037477D /* GistsList.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		15EDF36C2CC7F4E60037477D /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				15EDF34A2CC7D20B0037477D /* GistsList */,
+			);
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -99,6 +100,7 @@
 				};
 			};
 			buildConfigurationList = 15EDF3432CC7D20B0037477D /* Build configuration list for PBXProject "GistsList" */;
+			compatibilityVersion = "Xcode 15.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -107,7 +109,6 @@
 			);
 			mainGroup = 15EDF33F2CC7D20B0037477D;
 			minimizedProjectReferenceProxies = 1;
-			preferredProjectObjectVersion = 77;
 			productRefGroup = 15EDF3492CC7D20B0037477D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -146,10 +147,9 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = GistsList/Info.plist;
+				INFOPLIST_FILE = "New Group/GistsList/Assets/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -173,10 +173,9 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = GistsList/Info.plist;
+				INFOPLIST_FILE = "New Group/GistsList/Assets/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (

@@ -32,7 +32,7 @@ class GistDetailCell: UICollectionViewCell {
         fileContentLabel.translatesAutoresizingMaskIntoConstraints = false
         fileContentLabel.font = UIFont.systemFont(ofSize: 14)
         fileContentLabel.textColor = .gray
-        fileContentLabel.numberOfLines = 0  // Ограничение на 5 строк
+        fileContentLabel.numberOfLines = 0  // можно ограничить количество строк
         contentView.addSubview(fileContentLabel)
         
         // Настройка AutoLayout для элементов
