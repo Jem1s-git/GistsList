@@ -56,13 +56,10 @@ pull to refresh;
 Использовать кеширование для картинок. Как именно - на свое усмотрение;
 Загрузка данных - не использовать Alamofire и подобное. Нативная загрузка данных;
 Показать навыки использования:
-protocol;
-
-![скришот 1](https://github.com/Jem1s-git/GistsList/blob/main/screenshot2.png)
-![скришот 2](https://github.com/Jem1s-git/GistsList/blob/main/screenshot1.png)
-
-
-extensions;
+protocol;extensions;
 struct;
 encode/decode;
 диспетчиризации;
+
+![скришот 1](https://github.com/Jem1s-git/GistsList/blob/main/screenshot2.png)
+![скришот 2](https://github.com/Jem1s-git/GistsList/blob/main/screenshot1.png)
