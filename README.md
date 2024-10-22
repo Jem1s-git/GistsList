@@ -57,6 +57,11 @@ pull to refresh;
 Загрузка данных - не использовать Alamofire и подобное. Нативная загрузка данных;
 Показать навыки использования:
 protocol;
+
+![скришот 1](https://github.com/Jem1s-git/GistsList/blob/main/screenshot2.png)
+![скришот 2](https://github.com/Jem1s-git/GistsList/blob/main/screenshot1.png)
+
+
 extensions;
 struct;
 encode/decode;
